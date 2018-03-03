@@ -117,12 +117,15 @@ https://en.wikipedia.org/wiki/Chi-squared_distribution
 
 
 What you can always do when you design a filter is plot the 95% line. In our case, that's 7.8. And then for every time step k, calculate and plot also the NIS value. If you see something like this, then everything looks great. Sometimes you are over the 95% line, but that's what we expect.
+
 <img src="./img/NIS_good.png" width="500">
 
 If you see something like this, it means you underestimate the uncertainty in your system, like in the example we saw before.
+
 <img src="./img/NIS_underestimate.png" width="500">
 
 If you see someting like this, it means you overestimate the uncertainty in your system. Your estimations are actually more precise than you think.
+
 <img src="./img/NIS_overestimate.png" width="500">
 
 Unfortunately, the NIS test does not tell you where the mistake comes from, but it gives you at least some feedback.
